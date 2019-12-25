@@ -13,3 +13,10 @@ Skoda:
  - "Title": "
 John Doe:
  - {"Title": "Senior"}
+
+The data in the database are correct, it look like this:
+SELECT * FROM public."Cars"
+1	"Skoda"	"{"HP": 94}"
+
+SELECT * FROM public."People"
+1	"John Doe"	"{"Title": "Senior"}"
